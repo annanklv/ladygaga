@@ -1,0 +1,543 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+section {
+    height: 16%;
+}
+
+.white {
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.beige {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-color: #DFC7C1;
+}
+
+.pink {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-color: #F4DCD6;
+}
+
+.lightblue {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-color: #B2D9EA;
+}
+
+.blue {
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: #84B4C8;
+}
+
+.blue button {
+    margin-bottom: 30px;
+}
+
+.green {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-color: #619196;
+}
+
+.navbar {
+    overflow: hidden;
+    transition: 0.4s;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    /* text-transform:  uppercase; */
+    font-weight: 700;
+    font-family: 'Meie Script', cursive;
+    font-size: 2.3em;
+}
+
+.navbar a {
+    float: left;
+}
+
+.green img.responsive {
+    width: 100%;
+    max-width: 760px;
+    height: auto;
+}
+
+#life .vertically-centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-link {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 20px !important;
+}
+
+.white-text {
+    color:#FFFFFF;
+    font-size: 1.035em;
+    padding: 3px 30px;
+}
+
+.title {
+    text-decoration: underline;
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+.box {
+    padding: 20px 0;
+}
+
+.box p, .box span, .box a {
+    font-size: 1.035em;
+    color: #FFFFFF;
+}
+
+.box a {
+    text-decoration: underline;
+}
+
+.boxes.vertically-centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#life .vertically-centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#life .title {
+    padding: 32px;
+}
+
+#life .white-text {
+    font-size: 1.28vw;
+    line-height: 1.7em;
+}
+
+#albums .title {
+    padding: 32px;
+}
+
+#albums .vertically-centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#albums .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+#albums .column {
+    flex: 16.6%;
+    padding: 0 4px;
+    text-align: center;
+}
+
+#albums .card {
+    border-radius: 12px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+#albums .card img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#albums .card-link {
+    text-align: center;
+}
+
+#gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+#gallery .column {
+    flex: 25%;
+    padding: 0 4px;
+}
+
+#gallery .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+}
+
+#gallery .title {
+    color: #000000;
+    padding: 32px;
+    text-decoration: underline;
+}
+
+.last-p {
+    padding-bottom: 30px !important;
+    margin-bottom: 0;
+}
+
+.last-card {
+    margin-bottom: 30px !important;
+}
+
+#contact .title {
+    padding: 32px;
+}
+
+#contact .vertically-centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    color: #FFF;
+}
+
+footer .title {
+    font-size: 26px;
+}
+
+footer a {
+    color: lightgray;
+}
+
+footer a:hover {
+    color: #FFF;
+}
+
+a.fb-ic, a.tw-ic, a.gplus-icon, a.li-ic, a.ins-ic, a.pin-ic{
+    text-decoration: none;
+}
+
+/* footer a.tw-ic {
+    text-decoration: none;
+}
+
+footer a.gplus-icon {
+    text-decoration: none;
+}
+
+footer a.li-ic {
+    text-decoration: none;
+}
+
+footer a.ins-ic {
+    text-decoration: none;
+}
+
+footer a.pin-ic {
+    text-decoration: none;
+} */
+
+footer a i:hover {
+    color: red;
+}
+
+.error {
+    color: darkred;
+    padding-top: 3px;
+}
+
+/* ========================================================================================================== */
+
+/* Media queries */
+
+@media (max-width: 767.98px)  {
+    .beige {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+
+    footer a i {
+        color: #FFF;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .navbar-brand {
+        font-weight: 700;
+        font-family: 'Meie Script', cursive;
+        font-size: 1.5em;
+    }
+
+    .green {
+        height: auto;
+        width: 100%;
+        position: relative;
+        background-color: #619196;
+    }
+
+    #life .white-text {
+        color:#FFFFFF;
+        font-size: 1.165em !important;
+        padding: 3px 10px;
+        line-height: 1.5em;
+    }
+
+    .beige { 
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #albums .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    #albums .column {
+        text-align: center;
+        flex: 100%;
+        padding: 0 4px;
+    }
+
+    .pink {
+        height: auto;
+        width: 100%;
+    }
+    
+    #albums .card {
+        margin-bottom: 8px;
+    }
+
+    #gallery .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    #gallery .column {
+        flex: 100%;
+        padding: 0 4px;
+    }
+
+    .blue {
+        height: auto;
+        width: 100%;
+    }
+
+    .blue button {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        font-weight: 700;
+        font-family: 'Meie Script', cursive;
+        font-size: 1.8em;
+    }
+
+    .green {
+        height: auto;
+        width: 100%;
+        position: relative;
+        background-color: #619196;
+    }
+
+    #life .white-text {
+        color:#FFFFFF;
+        font-size: 1.235em !important;
+        padding: 3px 10px;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+
+    #albums .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    #albums .column {
+        text-align: center;
+        flex: 50%;
+        padding: 0 4px;
+    }
+
+    .pink {
+        height: auto;
+        width: 100%;
+    }
+    
+    #albums .card {
+        margin-bottom: 8px;
+    }
+
+    #gallery .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    #gallery .column {
+        flex: 50%;
+        padding: 0 4px;
+    }
+}
+
+@media (min-width: 768px) {
+    .green .lg {
+        height: 100%;
+        width: auto;
+        
+    }
+
+    .green {
+        height: auto;
+        width: 100%;
+        position: relative;
+        background-color: #619196;
+    }
+
+    .boxes {
+        margin-top: 5em;
+    }
+
+    .green img.responsive {
+        width: 100%;
+        max-width: 430px;
+        height: auto;
+        text-align: center;
+    }
+
+    #albums .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    #albums .column {
+        text-align: center;
+        flex: 33.3%;
+        padding: 0 4px;
+    }
+
+    .beige {
+        height: auto;
+        width: 100%;
+    }
+    
+    #albums .card {
+        margin-bottom: 8px;
+    }
+
+    #gallery .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    #gallery .column {
+        flex: 33.3%;
+        padding: 0 4px;
+    }
+}
+
+@media (min-width: 992px) {
+    .green {
+        height: auto;
+        width: 100%;
+        position: relative;
+        background-color: #619196;
+    }
+
+    .green img.responsive {
+        width: 100%;
+        max-width: 630px;
+        height: auto;
+        text-align: center;
+    }
+
+    .navbar-brand {
+        font-weight: 700;
+        font-family: 'Meie Script', cursive;
+        font-size: 2.5em;
+    }
+
+    .pink {
+        height: auto;
+        width: 100%;
+    }
+
+    #albums .card {
+        margin-bottom: 8px;
+    }
+
+    #albums .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    #albums .column {
+        text-align: center;
+        flex: 25%;
+        padding: 0 4px;
+    }
+
+    #gallery .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    #gallery .column {
+        flex: 25%;
+        padding: 0 4px;
+    }
+}

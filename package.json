@@ -1,0 +1,13 @@
+{
+  "name": "lady-gaga",
+  "version": "1.0.0",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "jquery": "^3.4.0",
+    "jquery-validation": "^1.19.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "bootstrap": "^4.3.1"
+  }
+}
