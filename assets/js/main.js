@@ -1,7 +1,3 @@
-$(window).on("load", function() {
-    Aos.refresh();
-});
-
 $(function () {
     $(".form_reg").validate({
         rules: {
